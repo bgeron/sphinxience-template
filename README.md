@@ -4,11 +4,11 @@ Use this project to easily get started with Sphinxience. Download and unpack htt
 
 Then:
 
-#.  Install [Poetry](https://poetry.eustace.io/), a Python dependency manager. If you have Python3 installed, you can usually do this by typing:
+1.  Install [Poetry](https://poetry.eustace.io/), a Python dependency manager. If you have Python3 installed, you can usually do this by typing:
 
         pip3 install --user poetry
 
-#.  Fill in some project name in the `name` field in `pyproject.toml`. This name helps Poetry identify the dependencies that you have installed for this project.
+2.  Fill in some project name in the `name` field in `pyproject.toml`. This name helps Poetry identify the dependencies that you have installed for this project.
 
         ...
 
@@ -18,23 +18,23 @@ Then:
 
         ...
 
-#.  Use Poetry to download and install the dependencies into a virtual environment:
+3.  Use Poetry to download and install the dependencies into a virtual environment:
 
         poetry install
 
     This may take a minute or so. On Linux, the dependencies will be installed somewhere in `~/.cache/pypoetry/virtualenvs/`, but this is not important.
 
-#.  Consider cleaning up your folder by removing the file you're reading now:
+4.  Consider cleaning up your folder by removing the file you're reading now:
 
         rm README.md
 
-#.  Consider putting this folder in version control with Git:
+5.  Consider putting this folder in version control with Git:
 
         git init
         git add .
         git commit -m 'Initial commit'
 
-#.  Build HTML and PDF
+6.  Build HTML and PDF
     
         make html
         make latexpdf
