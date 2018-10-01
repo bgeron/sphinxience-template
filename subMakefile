@@ -1,0 +1,15 @@
+# Minimal Makefile that defers to Makefile in the parent directory. Symlink
+# this from subdirectories for your convenience: cd into a subdirectory, and run
+#
+#     ln -s ../subMakefile Makefile
+# 
+# or from a deeper subdirectory:
+#
+#     ln -s ../../subMakefile Makefile
+#
+# et cetera.
+
+.PHONY: Makefile
+
+%: Makefile
+	@make -C .. --no-print-directory $@
