@@ -1,5 +1,7 @@
 # Example project that uses Sphinxience.
 
+[![Build Status](https://travis-ci.org/bgeron/sphinxience-template.svg?branch=master)](https://travis-ci.org/bgeron/sphinxience-template)
+
 Use this project to easily get started with Sphinxience. Download and unpack https://github.com/bgeron/sphinxience-template/archive/master.zip, or fork and clone this repository [on GitHub](https://github.com/bgeron/sphinxience-template). 
 
 Then:
